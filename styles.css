@@ -64,6 +64,7 @@ nav {
 .logo {
     width: 150px;
     margin: 12px;
+    cursor: pointer;
 }
 
 
@@ -289,6 +290,7 @@ aside {
     gap: 16px;
     margin-bottom: 24px;
     align-items: center;
+    cursor: pointer;
 }
 
 .shopping-cart figure {
@@ -329,6 +331,11 @@ aside {
 
 /* Product Details */
 
+#productDetail{
+    border-radius: 8px;
+    border: 1px var(--very-light-pink) solid;
+}
+
 #productDetail .product-detail-close{
     width: 8px;
     height: 8px;
@@ -353,7 +360,9 @@ aside {
 }
 
 #productDetail .product-info{
-    margin: 24px 24px 0 24px;
+    width: 100%;
+    padding: 8px 12px;
+  
 }
 #productDetail .product-info p:nth-child(1){
     font-weight: bold;            
@@ -363,15 +372,15 @@ aside {
 }
 #productDetail .product-info p:nth-child(2){
     color: var(--very-light-pink);
-    font-size: var(--md);
+    font-size: var(--lg);
     margin-top: 0;
-    margin-bottom: 36px;
+    margin-bottom: 12px;
 }
 #productDetail .product-info p:nth-child(3){
     color: var(--very-light-pink);
-    font-size: var(--lg);
+    font-size: var(--sm);
     margin-top: 0;
-    margin-bottom: 36px;
+    margin-bottom: 12px;
 }
 
 #productDetail .product-info .primary-button {
